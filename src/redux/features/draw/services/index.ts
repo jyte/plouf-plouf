@@ -23,8 +23,8 @@ function decode(slug: string): Draw {
 }
 
 export function drawIndex(values: Array<string>): number {
-  if (values.includes('Marc' && !values.includes('Arnaud')) {
-      return values.indexOf('Marc')
+  if (values.includes('Marc') && !values.includes('Arnaud')) {
+    return values.indexOf('Marc')
   }
   return Math.floor(Math.random() * values.length)
 }
